@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         arcView= (CircleArcView) findViewById(R.id.arcView);
         ValueAnimator animator=ValueAnimator.ofFloat(0,100);
-        animator.setDuration(2000);
+        animator.setDuration(1000*2);
         animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             @Override
             public void onAnimationUpdate(ValueAnimator animation) {
